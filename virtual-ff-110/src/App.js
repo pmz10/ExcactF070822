@@ -1,10 +1,12 @@
 import React from "react";
 
+import CaptaRoute from './Routes/index'
+
 function App() {
   return (
-    <div className="text-center">
-      <h1>Hola Mundo</h1>
-    </div>
+    <React.Fragment>
+      <CaptaRoute />
+    </React.Fragment>
   );
 }
 
